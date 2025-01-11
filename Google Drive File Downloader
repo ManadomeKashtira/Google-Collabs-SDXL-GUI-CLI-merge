@@ -1,0 +1,7 @@
+!pip install gdown
+import gdown
+
+file_id = "1MPrwBMZYznKGb864D5ZTXbmRkDv6jqk9"  # Replace this with your file's ID
+output_file = "merged_model.safetensors"  # Replace "data_file.ext" with the desired output filename and extension
+
+gdown.download(f"https://drive.google.com/uc?id={file_id}", output_file)
