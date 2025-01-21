@@ -1,0 +1,10 @@
+!python run_merger.py \
+  --models /content/Mergeoutput/merged.safetensors /content/Checkpoint1/illustriousXL_smoothftSOLID.safetensors \
+  --output /content/Mergeoutput/merged1.safetensors \
+  --method weighted_sum \
+  --precision prunefp16 \
+  --seed 1851313 \
+  --alpha 0.4 \
+  --beta 0.0 \
+  --save-seed \
+  --vae-source first
